@@ -36,13 +36,13 @@ Desenvolver um aplicativo com login e cadastro utilizando um banco de dados onli
 
 ## ⚙️ Funcionalidades
 
-[//]: <> - [x] Neste front-end teremos a temática da ACCT, com logo da ACCT cores da
-[//]: <> ACCT e a missão e valores da ACCT em uma página de sobre e mostrar as virtudes do serviço da ACCT,
-[//]: <> onde poderão:
-[//]: <>  - [x] acessar os serviços da ACCT
-[//]: <>  - [x] saber os valores de cada serviço
-[//]: <>  - [x] adicionar no carrinho
-[//]: <>  - [x] navegar entre as páginas, conhecendo os valores da empresa.
+- [x] Neste front-end teremos a temática da ACCT, com logo da ACCT cores da
+ACCT e a missão e valores da ACCT em uma página de sobre e mostrar as virtudes do serviço da ACCT,
+onde poderão:
+- [x] acessar os serviços da ACCT
+- [x] saber os valores de cada serviço
+- [x] adicionar no carrinho
+- [x] navegar entre as páginas, conhecendo os valores da empresa.
 
 ---
 
@@ -140,13 +140,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🦸 Autor
 
-
+Adriano Miranda Bitencourt
 ---
 
 ## 📝 Licença
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
-Com autorização para uso da Vtex no Hiring Coders.
+Projeto desenvolvido pelo Flutter Race disponibilizado publicamente para ser replicado e utilizado.
 
 
 ---
