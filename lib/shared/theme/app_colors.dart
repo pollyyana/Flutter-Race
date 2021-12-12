@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 //utiliza-se a letra I no nome da classe para indicar criação de Interface
 //mas o recomendado não é usar o I, por conta do autocomplete do vscode.
 abstract class IAppColors {
+  Color get title;
+  Color get subtitle;
   Color get primary;
   Color get buttonDisabled;
   Color get textDisabled;
@@ -13,6 +15,7 @@ abstract class IAppColors {
   Color get textColor;
   Color get badColor;
   Color get border;
+  Color get backButton;
 }
 
 class AppColors implements IAppColors {
@@ -45,4 +48,10 @@ class AppColors implements IAppColors {
 
   @override
   Color get background => const Color(0xFFF7F7F7);
+  @override
+  Color get title => const Color(0xFF1E1F20);
+  @override
+  Color get subtitle => const Color(0xFF949B9C);
+  @override
+  Color get backButton => const Color(0xFF000000);
 }

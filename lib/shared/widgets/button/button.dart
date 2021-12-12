@@ -7,9 +7,11 @@ class Button extends StatelessWidget {
   //após criar o parâmetro nomeado, segure ctrl + . e clique em generate constructor
   final String label;
   final ButtonType type;
+  final Function() onTap;
   const Button({
     required this.label,
     this.type = ButtonType.fill,
+    required this.onTap,
     Key? key,
   }) : super(key: key);
 
@@ -55,7 +57,7 @@ class Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: onTap,
       child: Container(
         height: 58,
         width: double.maxFinite,

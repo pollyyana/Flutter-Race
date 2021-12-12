@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:tacaro/shared/theme/app_text.dart';
 import 'package:tacaro/shared/theme/app_theme.dart';
 
@@ -6,9 +7,15 @@ class InputText extends StatelessWidget {
   //criação de variável para utilizar parâmetros nomeados
   final String label;
   final String hint;
+  final bool obscure;
+  final String? Function(String)? validator;
+  final void Function(String)? onChanged;
   const InputText({
     required this.label,
     required this.hint,
+    this.obscure = false,
+    this.validator,
+    this.onChanged,
     Key? key,
   }) : super(key: key);
 
@@ -23,6 +30,14 @@ class InputText extends StatelessWidget {
           height: 12,
         ),
         TextFormField(
+          //O validator abaixo valida se o valor do form é diferente de nulo para retornar o valor ou vazio
+          validator: (value) {
+            if (validator != null) {
+              return validator!(value ?? "");
+            }
+          },
+          onChanged: onChanged,
+          obscureText: obscure,
           style: AppTheme.textStyles.input,
           decoration: InputDecoration(
             hintStyle: AppTheme.textStyles.hint,
