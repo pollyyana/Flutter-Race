@@ -59,8 +59,6 @@ class FeedPage extends StatelessWidget {
                     height: 14,
                   ),
                   AppListTile(),
-                  AppListTile(),
-                  AppListTile(),
                 ],
               ),
             ),
