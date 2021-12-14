@@ -82,6 +82,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                 onChanged: (value) => controller.onChange(name: value),
                 validator: (value) =>
                     value.isNotEmpty ? null : "Digite seu nome completo",
+                inputFormatters: [],
               ),
               SizedBox(
                 height: 18,
@@ -92,6 +93,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                 onChanged: (value) => controller.onChange(email: value),
                 validator: (value) =>
                     isEmail(value) ? null : "Digite um e-mail válido",
+                inputFormatters: [],
               ),
               SizedBox(
                 height: 18,
@@ -107,6 +109,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                     value.length >= 6
                         ? null
                         : "Digite uma senha acima de 6 dígitos",
+                inputFormatters: [],
               ),
               SizedBox(
                 height: 14,

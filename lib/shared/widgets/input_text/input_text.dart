@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import 'package:tacaro/shared/theme/app_text.dart';
 import 'package:tacaro/shared/theme/app_theme.dart';
@@ -9,14 +10,18 @@ class InputText extends StatelessWidget {
   final String hint;
   final bool obscure;
   final String? Function(String)? validator;
+  final List<TextInputFormatter>? inputFormatters;
+  final TextInputType? keyboardType;
   final void Function(String)? onChanged;
   const InputText({
+    Key? key,
     required this.label,
     required this.hint,
     this.obscure = false,
     this.validator,
+    this.inputFormatters,
+    this.keyboardType,
     this.onChanged,
-    Key? key,
   }) : super(key: key);
 
   @override
@@ -30,6 +35,8 @@ class InputText extends StatelessWidget {
           height: 12,
         ),
         TextFormField(
+          keyboardType: keyboardType,
+          inputFormatters: inputFormatters,
           //O validator abaixo valida se o valor do form é diferente de nulo para retornar o valor ou vazio
           validator: (value) {
             if (validator != null) {

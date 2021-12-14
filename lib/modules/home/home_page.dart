@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:tacaro/modules/create/create_bottomsheet.dart';
 
-import 'package:tacaro/modules/feed/feed_page.dart';
+import 'package:tacaro/modules/create/create_bottomsheet.dart';
+import 'package:tacaro/shared/models/user_model.dart';
 import 'package:tacaro/shared/theme/app_theme.dart';
 import 'package:tacaro/shared/widgets/bottom_navigator/app_bottom_navigator.dart';
 
-//import 'package:tacaro/shared/models/user_model.dart';
-
 class HomePage extends StatefulWidget {
   final List<Widget> pages;
-  //final UserModel user;
+  final UserModel user;
   const HomePage({
     Key? key,
     required this.pages,
+    required this.user,
   }) : super(key: key);
 
   @override
@@ -21,9 +20,10 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   var currentIndex = 0;
-  void changeIndex(int index) {
+  late final List<Widget> pages = widget.pages;
+  void changeIndex(int index) async {
     if (index == 3) {
-      showModalBottomSheet(
+      await showModalBottomSheet(
           shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(32), topRight: Radius.circular(32))),
@@ -31,8 +31,8 @@ class _HomePageState extends State<HomePage> {
           builder: (context) => CreateBottomsheet());
     } else {
       currentIndex = index;
-      setState(() {});
     }
+    setState(() {});
   }
 
   @override
@@ -43,7 +43,10 @@ class _HomePageState extends State<HomePage> {
         height: MediaQuery.of(context).size.height,
         child: Stack(
           children: [
-            widget.pages[currentIndex],
+            Container(
+              key: UniqueKey(),
+              child: List.from(pages)[currentIndex],
+            ),
             Positioned(
               bottom: 14,
               left: 26,
