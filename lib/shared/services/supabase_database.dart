@@ -15,7 +15,6 @@ class SupabaseDatabase implements AppDatabase {
     //O kReleaseMode executa os prints abaixo somente em modo Release
     if (!kReleaseMode) {
       print("Database inicializado");
-      print("URL: ${client.supabaseUrl}, KEY: ${client.supabaseKey}");
     }
   }
 
