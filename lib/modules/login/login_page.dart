@@ -57,6 +57,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
+      // TODO Alterar o tema
       backgroundColor: AppTheme.colors.background,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 40),
@@ -80,7 +81,6 @@ class _LoginPageState extends State<LoginPage> {
                 validator: (value) =>
                     isEmail(value) ? null : "Digite um e-mail válido",
                 onChanged: (value) => controller.onChange(email: value),
-                inputFormatters: [],
               ),
               SizedBox(
                 height: 18,
@@ -98,7 +98,6 @@ class _LoginPageState extends State<LoginPage> {
                     //Contudo uma senha forte pode conter apenas 5 dígitos mas não será validado
                     //Digite uma senha acima de 6 dígitos
                     value.length >= 6 ? null : "Digite a senha correta",
-                inputFormatters: [],
               ),
               SizedBox(
                 height: 14,

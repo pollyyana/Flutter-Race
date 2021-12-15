@@ -48,6 +48,7 @@ class AppColors implements IAppColors {
 
   @override
   Color get background => const Color(0xFFF7F7F7);
+
   @override
   Color get title => const Color(0xFF1E1F20);
   @override

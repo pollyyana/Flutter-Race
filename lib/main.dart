@@ -20,7 +20,10 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Flutter Race 1",
-      theme: ThemeData(primarySwatch: Colors.green),
+      theme: ThemeData(
+        brightness: Brightness.light,
+        primarySwatch: Colors.green,
+      ),
       initialRoute: "/splash",
       routes: {
         "/splash": (context) => SplashPage(),

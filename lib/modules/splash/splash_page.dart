@@ -16,6 +16,7 @@ class SplashPage extends StatelessWidget {
       Navigator.pushNamed(context, "/login");
     });
     return Scaffold(
+      // TODO: Alterar o tema
       backgroundColor: AppTheme.colors.background,
       body: Center(
         child: Image.asset("assets/images/logo.png"),
