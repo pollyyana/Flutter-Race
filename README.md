@@ -25,41 +25,86 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-Desenvolver um aplicativo com login e cadastro utilizando um banco de dados online e Open Source.
+Desenvolver um aplicativo com login e cadastro utilizando um banco de dados online e Open Source, onde o usuário poderá inserir suas compras diárias e acompanhar se está pagando a mais pelo mesmo produto. Na Feedpage mostra todos os inputs e um chart com uma ánalise percentual sobre o mais caro para o barato, em que atribui-se bom para um percentual maior de preço baixo e ruim para uma quantidade maior do mais caro. 
+Para complementar ao projeto desenvolvido no Flutter Race, adicionei elementos para evitar Overflow, e deixei a Profile Page(botão de sair) semelhante ao input de dados.
 
 ---
 
 ## ⚙️ Funcionalidades
 <table>
   <tr>
-    <td>
-INTERFACE </td>
+<tr><td>*ELEMENTOS*:</td></tr>     
+<td>DART BÁSICO</td>
 <td>EXTENSION</td>
 <td>PADRÃO SINGLETON</td>
 <td>COMPONENTIZAÇÃO</td>
 <td>PARÂMETROS NOMEADOS</td>
 <td>ENUM</td>
 <td>GET(GETTER)</td>
+</tr> <tr>
 <td>OPERAÇÃO TERNÁRIA</td>
 <td>TYPEDEF</td>
 <td>GERÊNCIA DE ESTADO</td>
 <td>ROTAS</td>
- </tr>
- <tr>     
-<td>*WIDGETS*:</td></tr> 
+<td>RESPONSIVIDADE</td>
+<td>INTERPOLAÇÃO</td>
+<td>OPP</td>
+</tr> <tr>
+<td>CONDIÇÕES(IF/ELSE, SWITCH/CASE, TRY/CATCH)</td>
+<td>EXCEPTION</td>
+<td>DECLARAÇÃO DE AMBIENTE</td>
+<td>FUTURE</td>
+<td>DATA CLASS</td>
+<td>INTERFACE</td>
+<td>KEY</td>
+ </tr> 
+ <tr>
+<td>CONSTRUTORES</td>
+<td>NULL SAFETY</td>
+ </tr>    
+<tr><td>*WIDGETS*:</td></tr> 
 <tr>
+<td>MATERIAL APP</td>
 <td>STATELESS</td>
 <td>STATEFUL</td>
 <td>SCAFFOLD</td>
+<td>THEMEDATA </td>
 <td>COLUMN</td>
-<td>CONTAINER </td>
+<td>ROW</td>
+</tr> <tr>
+<td>CONTAINER</td>
 <td>TEXT</td>
-<td>IMAGE</td>
-<td>TEXTFORMFIELD</td>
-<td>INKWELL</td>
 <td>SIZEDBOX</td>
 <td>CENTER</td>
-     
+<td>SHOWMODALBOTTOMSHEET</td>
+<td>STACK</td>
+<td>POSITIONED</td>     
+</tr>
+</tr> <tr>
+<td>IMAGE</td>
+<td>SAFEAREA</td>
+<td>ANIMATEDBUILDER</td>
+<td>TEXTFORMFIELD</td>
+<td>PADDING</td>
+<td>LISTTILE</td>
+<td>INKWELL</td>     
+</tr>
+</tr> <tr>
+<td>CIRCLEAVATAR</td>
+<td>POPUPMENUBUTTON</td>
+<td>TEXT.RICH</td>
+<td>TEXTSPAN</td>
+<td>FORM</td>
+<td>ROUNDEDRECTANGLEBORDER</td>
+<td>LISTVIEW.BUILDER</td>     
+</tr>
+<tr>
+<td>DEPENDÊNCIAS</td>
+<td>google_fonts</td>
+<td>validators</td>
+<td>supabase</td>
+<td>font_awesome_flutter </td>
+<td>flutter_multi_formatter</td>
 </tr>
       </table>
 ---
