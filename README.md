@@ -14,7 +14,7 @@ Tabela de conteúdos
    * [Layout](#-layout)
    * [Sobre a execução do projeto](#-sobre-a-execução-do-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando a aplicação mobile(via emulador)](#rodando-a-aplicação-mobile(via-emulador))
+     * [Rodando a aplicação mobile(via emulador)](#user-content--rodando-a-aplicação-mobile(via-emulador))
    * [Tecnologias](#-tecnologias)
    * [Contribuidores](#-contribuidores)
    * [Como contribuir no projeto](#-como-contribuir-no-projeto)
