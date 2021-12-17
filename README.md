@@ -45,7 +45,7 @@ INTERFACE </td>
 <td>FACTORY</td>
  </tr>
  <tr>     
-<td>** WIDGETS:</td></tr>
+<td>*WIDGETS*:
 <tr>
 <td>STATELESS</td>
 <td>STATEFUL</td>
@@ -58,6 +58,7 @@ INTERFACE </td>
 <td>INKWELL</td>
 <td>SIZEDBOX</td>
 <td>CENTER</td>
+      </td></tr>
 </tr>
       </table>
 ---
