@@ -10,7 +10,7 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
-   * [Funcionalidades](#-sobre-o-projeto)
+   * [Funcionalidades](#-funcionalidades)
    * [Layout](#-layout)
    * [Sobre a execução do projeto](#-sobre-a-execução-do-projeto)
      * [Pré-requisitos](#pré-requisitos)
