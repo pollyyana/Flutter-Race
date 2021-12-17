@@ -109,7 +109,7 @@ Flutter, Dart, Supabase
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>   
+    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/Banner2.png" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>   
   </tr>
   
 </table>
