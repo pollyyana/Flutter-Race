@@ -42,10 +42,11 @@ INTERFACE </td>
 <td>GET(GETTER)</td>
 <td>OPERAÇÃO TERNÁRIA</td>
 <td>TYPEDEF</td>
-<td>FACTORY</td>
+<td>GERÊNCIA DE ESTADO</td>
+<td>ROTAS</td>
  </tr>
  <tr>     
-<td>*WIDGETS*:</td>
+<td>*WIDGETS*:</td></tr> 
 <tr>
 <td>STATELESS</td>
 <td>STATEFUL</td>
@@ -58,7 +59,7 @@ INTERFACE </td>
 <td>INKWELL</td>
 <td>SIZEDBOX</td>
 <td>CENTER</td>
- </tr>     
+     
 </tr>
       </table>
 ---
