@@ -65,72 +65,74 @@ class _LoginPageState extends State<LoginPage> {
           //Com esse formkey, teremos acesso ao estado do form renderizado
           //e conseguiremos chamar o validator de todos os ítens do form
           key: controller.formKey,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Image.asset(
-                "assets/images/logo.png",
-                width: 200,
-              ),
-              //Foi utilizado parâmetros nomeados, assim fica fácil reconhecer
-              InputText(
-                label: "Email",
-                hint: "Digite seu email",
-                //O package validators, analisa se o value é um email ou nulo, caso seja nulo, pede
-                //para inserir um email válido
-                validator: (value) =>
-                    isEmail(value) ? null : "Digite um e-mail válido",
-                onChanged: (value) => controller.onChange(email: value),
-              ),
-              SizedBox(
-                height: 18,
-              ),
-              InputText(
-                label: "Senha",
-                hint: "Digite sua senha",
-                obscure: true,
-                onChanged: (value) => controller.onChange(password: value),
-                //O validator abaixo não é o recomendado, pois não analisa a segurança da senha de
-                //apenas se possui mais de 6 caracteres.
-                validator: (value) =>
-                    //No curso o texto abaixo é Digite uma senha mais forte
-                    //Contudo o correto é Digite a senha correta
-                    //Contudo uma senha forte pode conter apenas 5 dígitos mas não será validado
-                    //Digite uma senha acima de 6 dígitos
-                    value.length >= 6 ? null : "Digite a senha correta",
-              ),
-              SizedBox(
-                height: 14,
-              ),
-              AnimatedBuilder(
-                  animation: controller,
-                  builder: (_, __) {
-                    return controller.state.when(
-                      loading: () => CircularProgressIndicator(),
-                      orElse: () => Column(
-                        children: [
-                          Button(
-                            label: "Entrar",
-                            onTap: () {
-                              controller.login();
-                            },
-                          ),
-                          SizedBox(
-                            height: 50,
-                          ),
-                          Button(
-                            label: "Criar Conta",
-                            type: ButtonType.outline,
-                            onTap: () {
-                              Navigator.pushNamed(
-                                  context, "/login/create_account");
-                            },
-                          ),
-                        ],
-                      ),
-                    );
-                  }),
-            ],
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  "assets/images/logo.png",
+                  width: 200,
+                ),
+                //Foi utilizado parâmetros nomeados, assim fica fácil reconhecer
+                InputText(
+                  label: "Email",
+                  hint: "Digite seu email",
+                  //O package validators, analisa se o value é um email ou nulo, caso seja nulo, pede
+                  //para inserir um email válido
+                  validator: (value) =>
+                      isEmail(value) ? null : "Digite um e-mail válido",
+                  onChanged: (value) => controller.onChange(email: value),
+                ),
+                SizedBox(
+                  height: 18,
+                ),
+                InputText(
+                  label: "Senha",
+                  hint: "Digite sua senha",
+                  obscure: true,
+                  onChanged: (value) => controller.onChange(password: value),
+                  //O validator abaixo não é o recomendado, pois não analisa a segurança da senha de
+                  //apenas se possui mais de 6 caracteres.
+                  validator: (value) =>
+                      //No curso o texto abaixo é Digite uma senha mais forte
+                      //Contudo o correto é Digite a senha correta
+                      //Contudo uma senha forte pode conter apenas 5 dígitos mas não será validado
+                      //Digite uma senha acima de 6 dígitos
+                      value.length >= 6 ? null : "Digite a senha correta",
+                ),
+                SizedBox(
+                  height: 14,
+                ),
+                AnimatedBuilder(
+                    animation: controller,
+                    builder: (_, __) {
+                      return controller.state.when(
+                        loading: () => CircularProgressIndicator(),
+                        orElse: () => Column(
+                          children: [
+                            Button(
+                              label: "Entrar",
+                              onTap: () {
+                                controller.login();
+                              },
+                            ),
+                            SizedBox(
+                              height: 50,
+                            ),
+                            Button(
+                              label: "Criar Conta",
+                              type: ButtonType.outline,
+                              onTap: () {
+                                Navigator.pushNamed(
+                                    context, "/login/create_account");
+                              },
+                            ),
+                          ],
+                        ),
+                      );
+                    }),
+              ],
+            ),
           ),
         ),
       ),

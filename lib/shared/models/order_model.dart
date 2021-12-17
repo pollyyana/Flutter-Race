@@ -5,11 +5,13 @@ class OrderModel {
   final String created;
   final String name;
   final double price;
+  final String? idusuario;
   OrderModel({
     required this.id,
     required this.created,
     required this.name,
     required this.price,
+    this.idusuario,
   });
 
   OrderModel copyWith({
@@ -17,12 +19,14 @@ class OrderModel {
     String? created,
     String? name,
     double? price,
+    String? idusuario,
   }) {
     return OrderModel(
       id: id ?? this.id,
       created: created ?? this.created,
       name: name ?? this.name,
       price: price ?? this.price,
+      idusuario: idusuario ?? this.idusuario,
     );
   }
 
@@ -32,6 +36,7 @@ class OrderModel {
       'created': created,
       'name': name,
       'price': price,
+      'idusuario': idusuario,
     };
   }
 
@@ -41,6 +46,7 @@ class OrderModel {
       created: map['created'],
       name: map['name'],
       price: double.tryParse(map['price'].toString()) ?? 0.0,
+      idusuario: map['idusuario'],
     );
   }
 
@@ -51,7 +57,7 @@ class OrderModel {
 
   @override
   String toString() {
-    return 'OrderModel(id: $id, created: $created, name: $name, price: $price)';
+    return 'OrderModel(id: $id, created: $created, name: $name, price: $price, idusuario: $idusuario)';
   }
 
   @override
@@ -62,7 +68,8 @@ class OrderModel {
         other.id == id &&
         other.created == created &&
         other.name == name &&
-        other.price == price;
+        other.price == price &&
+        other.idusuario == idusuario;
   }
 
   @override

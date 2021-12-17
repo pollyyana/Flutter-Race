@@ -66,6 +66,9 @@ Desenvolver um aplicativo com login e cadastro utilizando um banco de dados onli
 
 Seguem telas:
 
+<div align="left">
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/Home.JPG" width=150px height=250px />
+</div>
 ---
 
 ## 🚀 Como executar o projeto
