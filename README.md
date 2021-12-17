@@ -14,7 +14,7 @@ Tabela de conteúdos
    * [Layout](#-layout)
    * [Sobre a execução do projeto](#-sobre-a-execução-do-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando a aplicação mobile(via emulador)](#user-content--rodando-a-aplicação-mobile(via-emulador))
+     * [Rodando a aplicação mobile(via emulador)](#rodando-a-aplicação-mobile(via-emulador))
    * [Tecnologias](#-tecnologias)
    * [Contribuidores](#-contribuidores)
    * [Como contribuir no projeto](#-como-contribuir-no-projeto)
@@ -33,7 +33,7 @@ Para complementar ao projeto desenvolvido no Flutter Race, adicionei elementos p
 ## ⚙️ Funcionalidades
 <table>
   <tr>
-<tr><td>*ELEMENTOS*:</td></tr>     
+<tr><td>* ELEMENTOS: *</td></tr>     
 <td>DART BÁSICO</td>
 <td>EXTENSION</td>
 <td>PADRÃO SINGLETON</td>
@@ -62,7 +62,7 @@ Para complementar ao projeto desenvolvido no Flutter Race, adicionei elementos p
 <td>CONSTRUTORES</td>
 <td>NULL SAFETY</td>
  </tr>    
-<tr><td>*WIDGETS*:</td></tr> 
+<tr><td>* WIDGETS: *</td></tr> 
 <tr>
 <td>MATERIAL APP</td>
 <td>STATELESS</td>
@@ -99,7 +99,8 @@ Para complementar ao projeto desenvolvido no Flutter Race, adicionei elementos p
 <td>LISTVIEW.BUILDER</td>     
 </tr>
 <tr>
-<td>DEPENDÊNCIAS</td>
+<td>* DEPENDÊNCIAS: *</td>
+ </tr> <tr>     
 <td>google_fonts</td>
 <td>validators</td>
 <td>supabase</td>
@@ -112,9 +113,28 @@ Para complementar ao projeto desenvolvido no Flutter Race, adicionei elementos p
 ## 🎨 Layout
 
 Seguem telas:
+<table>
+  <tr>
+
+<td>
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/1.JPG"/>
+</td>
+<td>
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/2.JPG"/>
+</td>
+<td>
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/3.JPG"/>
+</td>
+<td>
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/4.JPG"/>
+</td>
+<td>
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/5.JPG"/>
+</td> </tr>
+ </table>       
 
 <div align="left">
-<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/Home.JPG" width=250px height=450px />
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/6.JPG" />
 </div>
 ---
 
