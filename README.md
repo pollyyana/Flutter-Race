@@ -30,31 +30,37 @@ Desenvolver um aplicativo com login e cadastro utilizando um banco de dados onli
 ---
 
 ## ⚙️ Funcionalidades
-
-- [x] INTERFACE
-- [x] EXTENSION
-- [x] PADRÃO SINGLETON
-- [x] COMPONENTIZAÇÃO
-- [x] PARÂMETROS NOMEADOS
-- [x] ENUM
-- [x] GET(GETTER)
-- [x] OPERAÇÃO TERNÁRIA
-- [x] TYPEDEF
-- [x] FACTORY
-
-- [x] ** WIDGETS:
-- [x] STATELESS
-- [x] STATEFUL
-- [x] SCAFFOLD
-- [x] COLUMN
-- [x] CONTAINER
-- [x] TEXT
-- [x] IMAGE
-- [x] TEXTFORMFIELD
-- [x] INKWELL
-- [x] SIZEDBOX
-- [x] CENTER
-
+<table>
+  <tr>
+    <td>
+INTERFACE 
+EXTENSION
+PADRÃO SINGLETON
+COMPONENTIZAÇÃO
+PARÂMETROS NOMEADOS
+ENUM </td>
+<td>        
+GET(GETTER)
+OPERAÇÃO TERNÁRIA
+TYPEDEF
+FACTORY </td>
+      
+<td>
+** WIDGETS:
+STATELESS
+STATEFUL
+SCAFFOLD
+COLUMN
+CONTAINER </td>
+<td>        
+TEXT
+IMAGE
+TEXTFORMFIELD
+INKWELL
+SIZEDBOX
+CENTER </td>
+</tr>
+      </table>
 ---
 
 ## 🎨 Layout
