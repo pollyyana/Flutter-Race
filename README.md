@@ -33,32 +33,31 @@ Desenvolver um aplicativo com login e cadastro utilizando um banco de dados onli
 <table>
   <tr>
     <td>
-INTERFACE 
-EXTENSION
-PADRÃO SINGLETON
-COMPONENTIZAÇÃO
-PARÂMETROS NOMEADOS
-ENUM </td>
-<td>        
-GET(GETTER)
-OPERAÇÃO TERNÁRIA
-TYPEDEF
-FACTORY </td>
-      
-<td>
-** WIDGETS:
-STATELESS
-STATEFUL
-SCAFFOLD
-COLUMN
-CONTAINER </td>
-<td>        
-TEXT
-IMAGE
-TEXTFORMFIELD
-INKWELL
-SIZEDBOX
-CENTER </td>
+INTERFACE </td>
+<td>EXTENSION</td>
+<td>PADRÃO SINGLETON</td>
+<td>COMPONENTIZAÇÃO</td>
+<td>PARÂMETROS NOMEADOS</td>
+<td>ENUM</td>
+<td>GET(GETTER)</td>
+<td>OPERAÇÃO TERNÁRIA</td>
+<td>TYPEDEF</td>
+<td>FACTORY</td>
+ </tr>
+ <tr>     
+<td>** WIDGETS:</td></tr>
+<tr>
+<td>STATELESS</td>
+<td>STATEFUL</td>
+<td>SCAFFOLD</td>
+<td>COLUMN</td>
+<td>CONTAINER </td>
+<td>TEXT</td>
+<td>IMAGE</td>
+<td>TEXTFORMFIELD</td>
+<td>INKWELL</td>
+<td>SIZEDBOX</td>
+<td>CENTER</td>
 </tr>
       </table>
 ---
