@@ -10,17 +10,12 @@ Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre o projeto](#-sobre-o-projeto)
-   * [Funcionalidades](#-funcionalidades)
+   * [Funcionalidades](#-Funcionalidades)
    * [Layout](#-layout)
-     * [Mobile](#mobile)
-     * [Web](#web)
-   * [Como executar o projeto](#-como-executar-o-projeto)
+   * [Sobre a execução do projeto](#-Sobre a execução do projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando o Backend (servidor)](#user-content--rodando-o-backend-servidor)
-     * [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
+     * [Rodando a aplicação mobile(via emulador)](#user-content--Rodando a aplicação mobile(via emulador))
    * [Tecnologias](#-tecnologias)
-     * [WebSite](#user-content-website--react----typescript)
-     * [Server](#user-content-server--nodejs----typescript)
    * [Contribuidores](#-contribuidores)
    * [Como contribuir no projeto](#-como-contribuir-no-projeto)
    * [Autor](#-autor)
@@ -36,7 +31,7 @@ Desenvolver um aplicativo com login e cadastro utilizando um banco de dados onli
 
 ## ⚙️ Funcionalidades
 
-- [x] INTERFACE
+-- [x] INTERFACE
 - [x] EXTENSION
 - [x] PADRÃO SINGLETON
 - [x] COMPONENTIZAÇÃO
@@ -107,12 +102,6 @@ Flutter, Dart, Supabase
 
 💜 Um super thanks 👏 para toda equipe do Flutter Race. :)
 
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/Banner2.png" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>   
-  </tr>
-  
-</table>
 
 ## 💪 Como contribuir no projeto
 
@@ -125,6 +114,13 @@ Flutter, Dart, Supabase
 ---
 
 ## 🦸 Autor
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/Banner2.png" width="100px;"</td>   
+  </tr>
+  
+</table>
 
 Adriano Miranda Bitencourt
 ---
