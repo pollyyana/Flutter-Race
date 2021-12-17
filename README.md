@@ -67,50 +67,30 @@ Desenvolver um aplicativo com login e cadastro utilizando um banco de dados onli
 Seguem telas:
 
 <div align="left">
-<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/Home.JPG" width=150px height=250px />
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/Home.JPG" width=250px height=450px />
 </div>
 ---
 
-## 🚀 Como executar o projeto
+## 🚀 Sobre a execução do projeto
 
-Este projeto é divido em duas partes:
-1. Backend (pasta aws) 
-2. Frontend (pasta store)
+Este projeto não foi desenhado para ser funcional em qualquer ambiente, não foi implementado API ou Storage Local, assim precisará criar um banco de dados no Supabase(https://supabase.com/), informar a o SUPABASEURL E SUPABASEKEY no launch.json que fica no diretório .vscode/launch.json(Não presente neste projeto)
 
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Flutter](https://flutter.dev/) seguindo o passo a passo para deixar o Flutter funcional.
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-#### 🎲 Rodando o Backend (servidor)
+
+#### 🧭 Rodando a aplicação mobile(via emulador)
 
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/JerryLion91/desafio-acct
+$ git clone https://github.com/ambitencourt/Flutter-Race
 
-# Instale as dependências
-$ npm install
-
-```
-
-#### 🧭 Rodando a aplicação web (Frontend)
-
-```bash
-
-# Clone este repositório
-$ git clone https://github.com/JerryLion91/desafio-acct
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
+# Você pode mandar o Vscode criar um Android emulator ou IOS emulator.
 
 
 ```
@@ -120,31 +100,18 @@ $ npm run start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-
+Flutter, Dart, Supabase
 ---
 
 ## 👨‍💻 Contribuidores
 
-💜 Um super thanks 👏 para essa galera que fez esse produto sair do campo da ideia e concluir o desafio :)
+💜 Um super thanks 👏 para toda equipe do Flutter Race. :)
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-  <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    
+    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>   
   </tr>
-  <tr>
-   <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ambitencourt"><img style="border-radius: 50%;" src="https://scontent.fssa5-1.fna.fbcdn.net/v/t1.18169-9/72920_395081970525336_1562693111_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=7NBO2XrPV6kAX_Zv_Ig&_nc_ht=scontent.fssa5-1.fna&oh=bf3bf42c6003ab26813c0a861286478d&oe=6151708B" width="100px;" alt=""/><br /><sub><b>Adriano Bitencourt</b></sub></a><br /></td>
-    
-  </tr>
+  
 </table>
 
 ## 💪 Como contribuir no projeto
