@@ -12,9 +12,9 @@ Tabela de conteúdos
    * [Sobre o projeto](#-sobre-o-projeto)
    * [Funcionalidades](#-Funcionalidades)
    * [Layout](#-layout)
-   * [Sobre a execução do projeto](#-Sobre a execução do projeto)
+   * [Sobre a execução do projeto](#-sobre-a-execução-do-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando a aplicação mobile(via emulador)](#user-content--Rodando a aplicação mobile(via emulador))
+     * [Rodando a aplicação mobile(via emulador)](#user-content--Rodando-a-aplicação-mobile(via-emulador))
    * [Tecnologias](#-tecnologias)
    * [Contribuidores](#-contribuidores)
    * [Como contribuir no projeto](#-como-contribuir-no-projeto)
@@ -31,7 +31,7 @@ Desenvolver um aplicativo com login e cadastro utilizando um banco de dados onli
 
 ## ⚙️ Funcionalidades
 
--- [x] INTERFACE
+- [x] INTERFACE
 - [x] EXTENSION
 - [x] PADRÃO SINGLETON
 - [x] COMPONENTIZAÇÃO
@@ -41,7 +41,7 @@ Desenvolver um aplicativo com login e cadastro utilizando um banco de dados onli
 - [x] OPERAÇÃO TERNÁRIA
 - [x] TYPEDEF
 - [x] FACTORY
-
+---
 - [x] ** WIDGETS:
 - [x] STATELESS
 - [x] STATEFUL
