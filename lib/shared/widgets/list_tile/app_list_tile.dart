@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
 import 'package:tacaro/shared/models/order_model.dart';
@@ -12,37 +13,34 @@ class AppListTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      padding: EdgeInsets.only(bottom: 150),
-      child: Padding(
-        padding: const EdgeInsets.only(bottom: 16.0),
-        child: Container(
-          decoration: BoxDecoration(
-              color: AppTheme.colors.textEnabled,
-              borderRadius: BorderRadius.circular(12)),
-          child: ListTile(
-            leading: CircleAvatar(
-              backgroundColor: AppTheme.colors.background,
-              radius: 30,
-              child: Text(
-                order.created.split("-").sublist(1).reversed.join("/"),
-                style: AppTheme.textStyles.label,
-              ),
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 16.0),
+      child: Container(
+        decoration: BoxDecoration(
+            color: AppTheme.colors.textEnabled,
+            borderRadius: BorderRadius.circular(12)),
+        child: ListTile(
+          leading: CircleAvatar(
+            backgroundColor: AppTheme.colors.background,
+            radius: 30,
+            child: Text(
+              order.created.split("-").sublist(1).reversed.join("/"),
+              style: AppTheme.textStyles.label,
             ),
-            title: Text(
-              order.name,
-              style: AppTheme.textStyles.titleListTile,
-            ),
-            subtitle: Text(
-              "R\$ ${order.price.toStringAsFixed(2)}",
-              style: AppTheme.textStyles.subtitleListTile,
-            ),
-            trailing: PopupMenuButton(
-              itemBuilder: (context) => [
-                PopupMenuItem(child: Text("Editar")),
-                PopupMenuItem(child: Text("Excluir"))
-              ],
-            ),
+          ),
+          title: Text(
+            order.name,
+            style: AppTheme.textStyles.titleListTile,
+          ),
+          subtitle: Text(
+            "R\$ ${order.price.toStringAsFixed(2)}",
+            style: AppTheme.textStyles.subtitleListTile,
+          ),
+          trailing: PopupMenuButton(
+            itemBuilder: (context) => [
+              PopupMenuItem(child: Text("Editar")),
+              PopupMenuItem(child: Text("Excluir"))
+            ],
           ),
         ),
       ),

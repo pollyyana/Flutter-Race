@@ -90,6 +90,9 @@ class _FeedPageState extends State<FeedPage> {
                             AppListTile(
                               order: order,
                             ),
+                          SizedBox(
+                            height: 14,
+                          ),
                         ],
                       ),
                     ),

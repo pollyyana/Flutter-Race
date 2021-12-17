@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:tacaro/modules/create/create_bottomsheet.dart';
+import 'package:tacaro/modules/profile/profile_page.dart';
 import 'package:tacaro/shared/models/user_model.dart';
 import 'package:tacaro/shared/theme/app_theme.dart';
 import 'package:tacaro/shared/widgets/bottom_navigator/app_bottom_navigator.dart';
@@ -29,9 +30,17 @@ class _HomePageState extends State<HomePage> {
                   topLeft: Radius.circular(32), topRight: Radius.circular(32))),
           context: context,
           builder: (context) => CreateBottomsheet());
+    } else if (index == 1) {
+      await showModalBottomSheet(
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(32), topRight: Radius.circular(32))),
+          context: context,
+          builder: (context) => ProfilePage());
     } else {
       currentIndex = index;
     }
+
     setState(() {});
   }
 

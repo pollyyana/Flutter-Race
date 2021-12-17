@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tacaro/modules/feed/feed_page.dart';
 import 'package:tacaro/modules/home/home_page.dart';
-import 'package:tacaro/modules/login/create_account/create_account.dart';
-import 'package:tacaro/modules/login/login_page.dart';
+import 'package:tacaro/modules/login/pages/create_account/create_account.dart';
+import 'package:tacaro/modules/login/pages/login_page.dart';
 import 'package:tacaro/modules/splash/splash_page.dart';
 import 'package:tacaro/shared/models/user_model.dart';
 

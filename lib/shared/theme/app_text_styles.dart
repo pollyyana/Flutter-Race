@@ -14,6 +14,7 @@ abstract class IAppTextStyles {
   TextStyle get buttonBoldTextColor;
   TextStyle get buttonTextColor;
   TextStyle get chart;
+  TextStyle get logout;
 }
 
 class AppTextStyles implements IAppTextStyles {
@@ -91,6 +92,12 @@ class AppTextStyles implements IAppTextStyles {
   TextStyle get chart => GoogleFonts.inter(
         fontSize: 14,
         color: AppTheme.colors.textEnabled,
+        fontWeight: FontWeight.bold,
+      );
+  @override
+  TextStyle get logout => GoogleFonts.inter(
+        fontSize: 18,
+        color: AppTheme.colors.logout,
         fontWeight: FontWeight.bold,
       );
 }

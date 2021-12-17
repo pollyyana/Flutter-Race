@@ -16,6 +16,7 @@ abstract class IAppColors {
   Color get badColor;
   Color get border;
   Color get backButton;
+  Color get logout;
 }
 
 class AppColors implements IAppColors {
@@ -55,4 +56,6 @@ class AppColors implements IAppColors {
   Color get subtitle => const Color(0xFF949B9C);
   @override
   Color get backButton => const Color(0xFF000000);
+  @override
+  Color get logout => const Color(0xFFFFFFFF);
 }
