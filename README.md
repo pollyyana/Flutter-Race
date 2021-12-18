@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-     Desenvolvemos o app Tá Caro, uma espécie de rede social de preços de produtos do dia a dia do consumidor. 
+     Desenvolvemos o app Tá Caro, funciona como um app entrada de preços de produtos e análise do percentual. 
 </h3>
 
 Tabela de conteúdos
@@ -136,6 +136,10 @@ Seguem telas:
 <div align="left">
 <img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/6.JPG" />
 </div>
+<div align="center">
+<img src="https://github.com/ambitencourt/Flutter-Race/blob/main/assets/images/TA-CARO.gif" />
+</div>
+
 ---
 
 ## 🚀 Sobre a execução do projeto
