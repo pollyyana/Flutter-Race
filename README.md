@@ -189,7 +189,7 @@ Flutter, Dart, Supabase
 
 ---
 
-## 🦸 Autor
+## 🙎‍♂️ Autor
 
 <table>
   <tr>
